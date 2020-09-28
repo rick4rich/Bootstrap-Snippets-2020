@@ -1,0 +1,689 @@
+{
+    "Bootstrap starting ": {
+      "prefix": "boot:start",
+      "body": [
+       
+            "<!DOCTYPE html>",
+            "<html lang=\"en\">",
+            "<head>",
+            "    <meta charset=\"UTF-8\">",
+            "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "         <title>Document</title>",
+            "    <!-- bootstrap -->",
+            "        <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css\" integrity=\"sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z\" crossorigin=\"anonymous\">",
+            "    <!-- bootstrap -->",
+            "</head>",
+            "<body>",
+            "",
+            "",
+            "",
+            "$0",
+            "",
+            "    ",
+            "<!-- bootstrap -->",
+            "<script src=\"https://code.jquery.com/jquery-3.5.1.slim.min.js\" integrity=\"sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj\" crossorigin=\"anonymous\"></script>",
+            "<script src=\"https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js\" integrity=\"sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN\" crossorigin=\"anonymous\"></script>",
+            "<script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js\" integrity=\"sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV\" crossorigin=\"anonymous\"></script>",
+            "<!-- bootstrap -->",
+            "</body>",
+            "</html>"
+          ],
+       
+      "description": "contain starting of bootstrap 4.5"
+    },
+    "bootstrap caurosel": {
+        "prefix": "boot:caurosel",
+        "body": [
+          "<div id=\"carouselExampleInterval\" class=\"carousel slide\" data-ride=\"carousel\">",
+          "  <div class=\"carousel-inner\">",
+          "    <div class=\"carousel-item active\" data-interval=\"10000\">",
+          "      <img src=\"...\" class=\"d-block w-100\" alt=\"...\">",
+          "    </div>",
+          "    <div class=\"carousel-item\" data-interval=\"2000\">",
+          "      <img src=\"...\" class=\"d-block w-100\" alt=\"...\">",
+          "    </div>",
+          "    <div class=\"carousel-item\">",
+          "      <img src=\"...\" class=\"d-block w-100\" alt=\"...\">",
+          "    </div>",
+          "  </div>",
+          "  <a class=\"carousel-control-prev\" href=\"#carouselExampleInterval\" role=\"button\" data-slide=\"prev\">",
+          "    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>",
+          "    <span class=\"sr-only\">Previous</span>",
+          "  </a>",
+          "  <a class=\"carousel-control-next\" href=\"#carouselExampleInterval\" role=\"button\" data-slide=\"next\">",
+          "    <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>",
+          "    <span class=\"sr-only\">Next</span>",
+          "  </a>",
+          "</div>"
+        ],
+        "description": "easily generate bootstrap caurosel"
+      },
+
+      "Table bootstrap": {
+        "prefix": "boot:table",
+        "body": [
+          "<table class=\"table\">",
+          "  <thead>",
+          "    <tr>",
+          "      <th scope=\"col\">#</th>",
+          "      <th scope=\"col\">First</th>",
+          "      <th scope=\"col\">Last</th>",
+          "      <th scope=\"col\">Handle</th>",
+          "    </tr>",
+          "  </thead>",
+          "  <tbody>",
+          "    <tr>",
+          "      <th scope=\"row\">1</th>",
+          "      <td>Mark</td>",
+          "      <td>Otto</td>",
+          "      <td>@mdo</td>",
+          "    </tr>",
+          "    <tr>",
+          "      <th scope=\"row\">2</th>",
+          "      <td>Jacob</td>",
+          "      <td>Thornton</td>",
+          "      <td>@fat</td>",
+          "    </tr>",
+          "    <tr>",
+          "      <th scope=\"row\">3</th>",
+          "      <td>Larry</td>",
+          "      <td>the Bird</td>",
+          "      <td>@twitter</td>",
+          "    </tr>",
+          "  </tbody>",
+          "</table>"
+        ],
+        "description": "easily generate table"
+      },
+
+      "generate bootstrap stripped table": {
+        "prefix": "boot:strippedtable",
+        "body": [
+          "<table class=\"table table-striped\">",
+          "  <thead>",
+          "    <tr>",
+          "      <th scope=\"col\">#</th>",
+          "      <th scope=\"col\">First</th>",
+          "      <th scope=\"col\">Last</th>",
+          "      <th scope=\"col\">Handle</th>",
+          "    </tr>",
+          "  </thead>",
+          "  <tbody>",
+          "    <tr>",
+          "      <th scope=\"row\">1</th>",
+          "      <td>Mark</td>",
+          "      <td>Otto</td>",
+          "      <td>@mdo</td>",
+          "    </tr>",
+          "    <tr>",
+          "      <th scope=\"row\">2</th>",
+          "      <td>Jacob</td>",
+          "      <td>Thornton</td>",
+          "      <td>@fat</td>",
+          "    </tr>",
+          "    <tr>",
+          "      <th scope=\"row\">3</th>",
+          "      <td>Larry</td>",
+          "      <td>the Bird</td>",
+          "      <td>@twitter</td>",
+          "    </tr>",
+          "  </tbody>",
+          "</table>"
+        ],
+        "description": "easily generate stripped table"
+      },
+
+
+      "import boot card": {
+        "prefix": "boot:card",
+        "body": [
+          "<div class=\"card-deck\">",
+          "  <div class=\"card\">",
+          "    <img src=\"...\" class=\"card-img-top\" alt=\"...\">",
+          "    <div class=\"card-body\">",
+          "      <h5 class=\"card-title\">Card title</h5>",
+          "      <p class=\"card-text\">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>",
+          "    </div>",
+          "    <div class=\"card-footer\">",
+          "      <small class=\"text-muted\">Last updated 3 mins ago</small>",
+          "    </div>",
+          "  </div>",
+          "  <div class=\"card\">",
+          "    <img src=\"...\" class=\"card-img-top\" alt=\"...\">",
+          "    <div class=\"card-body\">",
+          "      <h5 class=\"card-title\">Card title</h5>",
+          "      <p class=\"card-text\">This card has supporting text below as a natural lead-in to additional content.</p>",
+          "    </div>",
+          "    <div class=\"card-footer\">",
+          "      <small class=\"text-muted\">Last updated 3 mins ago</small>",
+          "    </div>",
+          "  </div>",
+          "  <div class=\"card\">",
+          "    <img src=\"...\" class=\"card-img-top\" alt=\"...\">",
+          "    <div class=\"card-body\">",
+          "      <h5 class=\"card-title\">Card title</h5>",
+          "      <p class=\"card-text\">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>",
+          "    </div>",
+          "    <div class=\"card-footer\">",
+          "      <small class=\"text-muted\">Last updated 3 mins ago</small>",
+          "    </div>",
+          "  </div>",
+          "</div>"
+        ],
+        "description": "generate bootstrap card"
+      },
+
+      "bootstrap Scrollspy": {
+        "prefix": "boot:scrollspy",
+        "body": [
+          "<div id=\"list-example\" class=\"list-group\">",
+          "  <a class=\"list-group-item list-group-item-action\" href=\"#list-item-1\">Item 1</a>",
+          "  <a class=\"list-group-item list-group-item-action\" href=\"#list-item-2\">Item 2</a>",
+          "  <a class=\"list-group-item list-group-item-action\" href=\"#list-item-3\">Item 3</a>",
+          "  <a class=\"list-group-item list-group-item-action\" href=\"#list-item-4\">Item 4</a>",
+          "</div>",
+          "<div data-spy=\"scroll\" data-target=\"#list-example\" data-offset=\"0\" class=\"scrollspy-example\">",
+          "  <h4 id=\"list-item-1\">Item 1</h4>",
+          "  <p>...</p>",
+          "  <h4 id=\"list-item-2\">Item 2</h4>",
+          "  <p>...</p>",
+          "  <h4 id=\"list-item-3\">Item 3</h4>",
+          "  <p>...</p>",
+          "  <h4 id=\"list-item-4\">Item 4</h4>",
+          "  <p>...</p>",
+          "</div>"
+        ],
+        "description": ""
+      },
+
+      "bootstrap text selection": {
+        "prefix": "boot:text:selection",
+        "body": [
+          "<p class=\"user-select-all\">This paragraph will be entirely selected when clicked by the user.</p>",
+          "<p class=\"user-select-auto\">This paragraph has the default select behavior.</p>",
+          "<p class=\"user-select-none\">This paragraph will not be selectable when clicked by the user.</p>"
+        ],
+        "description": ""
+      },
+
+      "bootstrap container fluid": {
+        "prefix": "boot:container:fluid",
+        "body": [
+          "<div class=\"container-fluid\">",
+          "  ...",
+          "</div>"
+        ],
+        "description": ""
+      },
+
+      "bootstarp grid system": {
+        "prefix": "boot:grid",
+        "body": [
+          "<div class=\"container\">",
+          "  <div class=\"row\">",
+          "    <div class=\"col-sm\">",
+          "      One of three columns",
+          "    </div>",
+          "    <div class=\"col-sm\">",
+          "      One of three columns",
+          "    </div>",
+          "    <div class=\"col-sm\">",
+          "      One of three columns",
+          "    </div>",
+          "  </div>",
+          "</div>"
+        ],
+        "description": ""
+      },
+
+      "bootstrap pagination": {
+        "prefix": "boot.pagination",
+        "body": [
+          "<nav aria-label=\"Page navigation example\">",
+          "  <ul class=\"pagination\">",
+          "    <li class=\"page-item\">",
+          "      <a class=\"page-link\" href=\"#\" aria-label=\"Previous\">",
+          "        <span aria-hidden=\"true\">&laquo;</span>",
+          "      </a>",
+          "    </li>",
+          "    <li class=\"page-item\"><a class=\"page-link\" href=\"#\">1</a></li>",
+          "    <li class=\"page-item\"><a class=\"page-link\" href=\"#\">2</a></li>",
+          "    <li class=\"page-item\"><a class=\"page-link\" href=\"#\">3</a></li>",
+          "    <li class=\"page-item\">",
+          "      <a class=\"page-link\" href=\"#\" aria-label=\"Next\">",
+          "        <span aria-hidden=\"true\">&raquo;</span>",
+          "      </a>",
+          "    </li>",
+          "  </ul>",
+          "</nav>"
+        ],
+        "description": ""
+      },
+
+      "bootstrap spinners": {
+        "prefix": "boot:spinners",
+        "body": [
+          "<div class=\"spinner-border\" role=\"status\">",
+          "  <span class=\"sr-only\">Loading...</span>",
+          "</div>"
+        ],
+        "description": ""
+      },
+
+      "bootsap model": {
+        "prefix": "boot:model",
+        "body": [
+          "<!-- Button trigger modal -->",
+          "<button type=\"button\" class=\"btn btn-primary\" data-toggle=\"modal\" data-target=\"#staticBackdrop\">",
+          "  Launch static backdrop modal",
+          "</button>",
+          "",
+          "<!-- Modal -->",
+          "<div class=\"modal fade\" id=\"staticBackdrop\" data-backdrop=\"static\" data-keyboard=\"false\" tabindex=\"-1\" aria-labelledby=\"staticBackdropLabel\" aria-hidden=\"true\">",
+          "  <div class=\"modal-dialog\">",
+          "    <div class=\"modal-content\">",
+          "      <div class=\"modal-header\">",
+          "        <h5 class=\"modal-title\" id=\"staticBackdropLabel\">Modal title</h5>",
+          "        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">",
+          "          <span aria-hidden=\"true\">&times;</span>",
+          "        </button>",
+          "      </div>",
+          "      <div class=\"modal-body\">",
+          "        ...",
+          "      </div>",
+          "      <div class=\"modal-footer\">",
+          "        <button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>",
+          "        <button type=\"button\" class=\"btn btn-primary\">Understood</button>",
+          "      </div>",
+          "    </div>",
+          "  </div>",
+          "</div>"
+        ],
+        "description": ""
+      },
+      "navnar with picutre": {
+        "prefix": "boot:header:with:picture",
+        "body": [
+          "<!-- Image and text -->",
+          "<nav class=\"navbar navbar-light bg-light\">",
+          "  <a class=\"navbar-brand\" href=\"#\">",
+          "    <img src=\"/docs/4.5/assets/brand/bootstrap-solid.svg\" width=\"30\" height=\"30\" class=\"d-inline-block align-top\" alt=\"\" loading=\"lazy\">",
+          "    Bootstrap",
+          "  </a>",
+          "</nav>"
+        ],
+        "description": ""
+      },
+      "Bootstrap accordin": {
+        "prefix": "boot:accordion ",
+        "body": [
+          "<div class=\"accordion\" id=\"accordionExample\">",
+          "  <div class=\"card\">",
+          "    <div class=\"card-header\" id=\"headingOne\">",
+          "      <h2 class=\"mb-0\">",
+          "        <button class=\"btn btn-link btn-block text-left\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">",
+          "          Collapsible Group Item #1",
+          "        </button>",
+          "      </h2>",
+          "    </div>",
+          "",
+          "    <div id=\"collapseOne\" class=\"collapse show\" aria-labelledby=\"headingOne\" data-parent=\"#accordionExample\">",
+          "      <div class=\"card-body\">",
+          "        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.",
+          "      </div>",
+          "    </div>",
+          "  </div>",
+          "  <div class=\"card\">",
+          "    <div class=\"card-header\" id=\"headingTwo\">",
+          "      <h2 class=\"mb-0\">",
+          "        <button class=\"btn btn-link btn-block text-left collapsed\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">",
+          "          Collapsible Group Item #2",
+          "        </button>",
+          "      </h2>",
+          "    </div>",
+          "    <div id=\"collapseTwo\" class=\"collapse\" aria-labelledby=\"headingTwo\" data-parent=\"#accordionExample\">",
+          "      <div class=\"card-body\">",
+          "        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.",
+          "      </div>",
+          "    </div>",
+          "  </div>",
+          "  <div class=\"card\">",
+          "    <div class=\"card-header\" id=\"headingThree\">",
+          "      <h2 class=\"mb-0\">",
+          "        <button class=\"btn btn-link btn-block text-left collapsed\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">",
+          "          Collapsible Group Item #3",
+          "        </button>",
+          "      </h2>",
+          "    </div>",
+          "    <div id=\"collapseThree\" class=\"collapse\" aria-labelledby=\"headingThree\" data-parent=\"#accordionExample\">",
+          "      <div class=\"card-body\">",
+          "        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.",
+          "      </div>",
+          "    </div>",
+          "  </div>",
+          "</div>"
+        ],
+        "description": ""
+      },
+      "bootstrap multiple targets": {
+        "prefix": "boot:multiple:targets",
+        "body": [
+          "<p>",
+          "  <a class=\"btn btn-primary\" data-toggle=\"collapse\" href=\"#multiCollapseExample1\" role=\"button\" aria-expanded=\"false\" aria-controls=\"multiCollapseExample1\">Toggle first element</a>",
+          "  <button class=\"btn btn-primary\" type=\"button\" data-toggle=\"collapse\" data-target=\"#multiCollapseExample2\" aria-expanded=\"false\" aria-controls=\"multiCollapseExample2\">Toggle second element</button>",
+          "  <button class=\"btn btn-primary\" type=\"button\" data-toggle=\"collapse\" data-target=\".multi-collapse\" aria-expanded=\"false\" aria-controls=\"multiCollapseExample1 multiCollapseExample2\">Toggle both elements</button>",
+          "</p>",
+          "<div class=\"row\">",
+          "  <div class=\"col\">",
+          "    <div class=\"collapse multi-collapse\" id=\"multiCollapseExample1\">",
+          "      <div class=\"card card-body\">",
+          "        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+          "      </div>",
+          "    </div>",
+          "  </div>",
+          "  <div class=\"col\">",
+          "    <div class=\"collapse multi-collapse\" id=\"multiCollapseExample2\">",
+          "      <div class=\"card card-body\">",
+          "        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+          "      </div>",
+          "    </div>",
+          "  </div>",
+          "</div>"
+        ],
+        "description": ""
+      },
+      "bootstrap collapse": {
+        "prefix": "boot:collapse",
+        "body": [
+          "<p>",
+          "  <a class=\"btn btn-primary\" data-toggle=\"collapse\" href=\"#collapseExample\" role=\"button\" aria-expanded=\"false\" aria-controls=\"collapseExample\">",
+          "    Link with href",
+          "  </a>",
+          "  <button class=\"btn btn-primary\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseExample\" aria-expanded=\"false\" aria-controls=\"collapseExample\">",
+          "    Button with data-target",
+          "  </button>",
+          "</p>",
+          "<div class=\"collapse\" id=\"collapseExample\">",
+          "  <div class=\"card card-body\">",
+          "    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+          "  </div>",
+          "</div>"
+        ],
+        "description": ""
+      },
+      "bootstrap button collapse": {
+        "prefix": "boot:btn:collapse",
+        "body": [
+          "<div class=\"dropdown\">",
+          "  <button class=\"btn btn-secondary dropdown-toggle\" type=\"button\" id=\"dropdownMenuButton\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">",
+          "    Dropdown button",
+          "  </button>",
+          "  <div class=\"dropdown-menu\" aria-labelledby=\"dropdownMenuButton\">",
+          "    <a class=\"dropdown-item\" href=\"#\">Action</a>",
+          "    <a class=\"dropdown-item\" href=\"#\">Another action</a>",
+          "    <a class=\"dropdown-item\" href=\"#\">Something else here</a>",
+          "  </div>",
+          "</div>"
+        ],
+        "description": ""
+      },
+      "bootstrap collapse with link": {
+        "prefix": "boot:btn:collapse:link",
+        "body": [
+          "<div class=\"dropdown\">",
+          "  <a class=\"btn btn-secondary dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">",
+          "    Dropdown link",
+          "  </a>",
+          "",
+          "  <div class=\"dropdown-menu\" aria-labelledby=\"dropdownMenuLink\">",
+          "    <a class=\"dropdown-item\" href=\"#\">Action</a>",
+          "    <a class=\"dropdown-item\" href=\"#\">Another action</a>",
+          "    <a class=\"dropdown-item\" href=\"#\">Something else here</a>",
+          "  </div>",
+          "</div>"
+        ],
+        "description": ""
+      },
+      "bootstrap file upload": {
+        "prefix": "boot:file:upload",
+        "body": [
+          "<form>",
+          "  <div class=\"form-group\">",
+          "    <label for=\"exampleFormControlFile1\">Example file input</label>",
+          "    <input type=\"file\" class=\"form-control-file\" id=\"exampleFormControlFile1\">",
+          "  </div>",
+          "</form>"
+        ],
+        "description": ""
+      },
+      "bootstrap forms": {
+        "prefix": "boot:forms",
+        "body": [
+          "<form>",
+          "  <div class=\"form-group\">",
+          "    <label for=\"exampleFormControlInput1\">Email address</label>",
+          "    <input type=\"email\" class=\"form-control\" id=\"exampleFormControlInput1\" placeholder=\"name@example.com\">",
+          "  </div>",
+          "  <div class=\"form-group\">",
+          "    <label for=\"exampleFormControlSelect1\">Example select</label>",
+          "    <select class=\"form-control\" id=\"exampleFormControlSelect1\">",
+          "      <option>1</option>",
+          "      <option>2</option>",
+          "      <option>3</option>",
+          "      <option>4</option>",
+          "      <option>5</option>",
+          "    </select>",
+          "  </div>",
+          "  <div class=\"form-group\">",
+          "    <label for=\"exampleFormControlSelect2\">Example multiple select</label>",
+          "    <select multiple class=\"form-control\" id=\"exampleFormControlSelect2\">",
+          "      <option>1</option>",
+          "      <option>2</option>",
+          "      <option>3</option>",
+          "      <option>4</option>",
+          "      <option>5</option>",
+          "    </select>",
+          "  </div>",
+          "  <div class=\"form-group\">",
+          "    <label for=\"exampleFormControlTextarea1\">Example textarea</label>",
+          "    <textarea class=\"form-control\" id=\"exampleFormControlTextarea1\" rows=\"3\"></textarea>",
+          "  </div>",
+          "</form>"
+        ],
+        "description": ""
+      },
+      "bootstrap input group": {
+        "prefix": "boot:input:group",
+        "body": [
+          "<div class=\"input-group mb-3\">",
+          "  <div class=\"input-group-prepend\">",
+          "    <span class=\"input-group-text\" id=\"basic-addon1\">@</span>",
+          "  </div>",
+          "  <input type=\"text\" class=\"form-control\" placeholder=\"Username\" aria-label=\"Username\" aria-describedby=\"basic-addon1\">",
+          "</div>",
+          "",
+          "<div class=\"input-group mb-3\">",
+          "  <input type=\"text\" class=\"form-control\" placeholder=\"Recipient's username\" aria-label=\"Recipient's username\" aria-describedby=\"basic-addon2\">",
+          "  <div class=\"input-group-append\">",
+          "    <span class=\"input-group-text\" id=\"basic-addon2\">@example.com</span>",
+          "  </div>",
+          "</div>",
+          "",
+          "<label for=\"basic-url\">Your vanity URL</label>",
+          "<div class=\"input-group mb-3\">",
+          "  <div class=\"input-group-prepend\">",
+          "    <span class=\"input-group-text\" id=\"basic-addon3\">https://example.com/users/</span>",
+          "  </div>",
+          "  <input type=\"text\" class=\"form-control\" id=\"basic-url\" aria-describedby=\"basic-addon3\">",
+          "</div>",
+          "",
+          "<div class=\"input-group mb-3\">",
+          "  <div class=\"input-group-prepend\">",
+          "    <span class=\"input-group-text\">$</span>",
+          "  </div>",
+          "  <input type=\"text\" class=\"form-control\" aria-label=\"Amount (to the nearest dollar)\">",
+          "  <div class=\"input-group-append\">",
+          "    <span class=\"input-group-text\">.00</span>",
+          "  </div>",
+          "</div>",
+          "",
+          "<div class=\"input-group\">",
+          "  <div class=\"input-group-prepend\">",
+          "    <span class=\"input-group-text\">With textarea</span>",
+          "  </div>",
+          "  <textarea class=\"form-control\" aria-label=\"With textarea\"></textarea>",
+          "</div>"
+        ],
+        "description": ""
+      },
+      "bootstrap multiple input": {
+        "prefix": "boot:multiple:input",
+        "body": [
+          "<div class=\"input-group\">",
+          "  <div class=\"input-group-prepend\">",
+          "    <span class=\"input-group-text\">First and last name</span>",
+          "  </div>",
+          "  <input type=\"text\" aria-label=\"First name\" class=\"form-control\">",
+          "  <input type=\"text\" aria-label=\"Last name\" class=\"form-control\">",
+          "</div>"
+        ],
+        "description": ""
+      },
+      "bootstrap custom file input": {
+        "prefix": "boot:custom:file",
+        "body": [
+          "<div class=\"input-group mb-3\">",
+          "  <div class=\"input-group-prepend\">",
+          "    <span class=\"input-group-text\" id=\"inputGroupFileAddon01\">Upload</span>",
+          "  </div>",
+          "  <div class=\"custom-file\">",
+          "    <input type=\"file\" class=\"custom-file-input\" id=\"inputGroupFile01\" aria-describedby=\"inputGroupFileAddon01\">",
+          "    <label class=\"custom-file-label\" for=\"inputGroupFile01\">Choose file</label>",
+          "  </div>",
+          "</div>",
+          "",
+          "<div class=\"input-group mb-3\">",
+          "  <div class=\"custom-file\">",
+          "    <input type=\"file\" class=\"custom-file-input\" id=\"inputGroupFile02\">",
+          "    <label class=\"custom-file-label\" for=\"inputGroupFile02\" aria-describedby=\"inputGroupFileAddon02\">Choose file</label>",
+          "  </div>",
+          "  <div class=\"input-group-append\">",
+          "    <span class=\"input-group-text\" id=\"inputGroupFileAddon02\">Upload</span>",
+          "  </div>",
+          "</div>",
+          "",
+          "<div class=\"input-group mb-3\">",
+          "  <div class=\"input-group-prepend\">",
+          "    <button class=\"btn btn-outline-secondary\" type=\"button\" id=\"inputGroupFileAddon03\">Button</button>",
+          "  </div>",
+          "  <div class=\"custom-file\">",
+          "    <input type=\"file\" class=\"custom-file-input\" id=\"inputGroupFile03\" aria-describedby=\"inputGroupFileAddon03\">",
+          "    <label class=\"custom-file-label\" for=\"inputGroupFile03\">Choose file</label>",
+          "  </div>",
+          "</div>",
+          "",
+          "<div class=\"input-group\">",
+          "  <div class=\"custom-file\">",
+          "    <input type=\"file\" class=\"custom-file-input\" id=\"inputGroupFile04\" aria-describedby=\"inputGroupFileAddon04\">",
+          "    <label class=\"custom-file-label\" for=\"inputGroupFile04\">Choose file</label>",
+          "  </div>",
+          "  <div class=\"input-group-append\">",
+          "    <button class=\"btn btn-outline-secondary\" type=\"button\" id=\"inputGroupFileAddon04\">Button</button>",
+          "  </div>",
+          "</div>"
+        ],
+        "description": ""
+      },
+      "bootstrap jumbotron": {
+        "prefix": "boot:jumbotron",
+        "body": [
+          "<div class=\"jumbotron\">",
+          "  <h1 class=\"display-4\">Hello, world!</h1>",
+          "  <p class=\"lead\">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>",
+          "  <hr class=\"my-4\">",
+          "  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>",
+          "  <a class=\"btn btn-primary btn-lg\" href=\"#\" role=\"button\">Learn more</a>",
+          "</div>"
+        ],
+        "description": ""
+      },
+      "Bootstrap Button Primary": {
+        "prefix": "boot:btn-primary",
+        "body": [
+          "<button type=\"button\" class=\"btn btn-primary\">Primary</button>"
+        ],
+        "description": "Bootstrao Button"
+      },
+      "Bootstrap button Secondary": {
+        "prefix": "boot:btn-secondary",
+        "body": [
+          "<button type=\"button\" class=\"btn btn-secondary\">Secondary</button>"
+        ],
+        "description": "Bootstrap button Secondary"
+      },
+      "Bootstrap button Sucess": {
+        "prefix": "boot:btn-sucess",
+        "body": [
+          "<button type=\"button\" class=\"btn btn-success\">Success</button>"
+        ],
+        "description": "Bootstrap button Sucess"
+      },
+      "Bootstrap button danger": {
+        "prefix": "boot:btn-danger",
+        "body": [
+          "<button type=\"button\" class=\"btn btn-danger\">Danger</button>"
+        ],
+        "description": "Bootstrap button danger"
+      },
+      "Bootstrap button warning": {
+        "prefix": "boot:btn-warning",
+        "body": [
+          "<button type=\"button\" class=\"btn btn-warning\">Warning</button>"
+        ],
+        "description": "Bootstrap button warning"
+      },
+      "Bootstrap button info": {
+        "prefix": "boot:btn-info",
+        "body": [
+          "<button type=\"button\" class=\"btn btn-info\">Info</button>"
+        ],
+        "description": "Bootstrap button info"
+      },
+      "Bootstrap button Light": {
+        "prefix": "boot:btn-light",
+        "body": [
+          "<button type=\"button\" class=\"btn btn-light\">Light</button>"
+        ],
+        "description": "Bootstrap button Light"
+      },
+      "Bootstrap button Dark": {
+        "prefix": "boot:btn-dark",
+        "body": [
+          "<button type=\"button\" class=\"btn btn-dark\">Dark</button>"
+        ],
+        "description": "Bootstrap button Dark"
+      },
+      "Bootstrap button Link": {
+        "prefix": "boot:btn-link",
+        "body": [
+          "<button type=\"button\" class=\"btn btn-link\">Link</button>",
+          ""
+        ],
+        "description": "Bootstrap button Link"
+      },
+      "Bootstrap button outline Primary": {
+        "prefix": "boot:btn-outline-primary",
+        "body": [
+          "<button type=\"button\" class=\"btn btn-outline-primary\">Primary</button>"
+        ],
+        "description": "Bootstrap button outline Primary"
+      },
+      "Bootstrap button outline sucess": {
+        "prefix": "boot:btn-outline-sucess",
+        "body": [
+          "<button type=\"button\" class=\"btn btn-outline-success\">Success</button>"
+        ],
+        "description": "Bootstrap button outline sucess"
+      }
+
+}
