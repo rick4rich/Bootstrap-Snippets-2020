@@ -1,0 +1,35 @@
+{
+	"name": "bootsnip",
+	"displayName": "Bootstrap snippets in 2020",
+	"description": "🔥Create website using Bootstrap snippets now!.🔥",
+	"version": "1.0.5",
+	"publisher": "rickrich",
+	"icon": "bootsnip.ico",
+	"engines": {
+		"vscode": "^1.48.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"keywords": [
+		"bootstrap",
+		"Bootstrap snippets",
+		"Bootstrap 5",
+		"HTML",
+		"html",
+		"javascript",
+		"Bootsnip",
+		"bootstrap",
+		"bootstrap 2020",
+		"bootstrap snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "html",
+				"path": "./snippets/snippets.code-snippets"
+			}
+		]
+	}
+	
+}
